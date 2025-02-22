@@ -11,7 +11,7 @@ const Banner = () => {
     <div className="banner-container">
       <div className="perspective-wrapper">
         <img
-          src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg"
+          src="https://res.cloudinary.com/dgfmmttsi/image/upload/v1740230537/WhatsApp_Image_2025-02-22_at_13.21.36_3ef5d78d_lv1ddy.jpg"
           alt="Feature"
           className="hero-image"
         />
