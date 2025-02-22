@@ -1,24 +1,30 @@
-# Logs
-logs
+# Ignore the .env files for sensitive data
+.env
+
+# Ignore PowerShell specific files
+*.psd1
+*.psm1
+*.ps1*
+
+# Ignore build directories or output files (if you're building scripts)
+build/
+dist/
+out/
+
+# Ignore temporary files and logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+*.tmp
 
-node_modules
-dist
-dist-ssr
-*.local
+# Ignore Visual Studio Code workspace settings (if used)
+.vscode/
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Ignore system files (macOS, Windows, Linux)
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+
+# Ignore IDE-specific files (if applicable)
+.idea/
+.vs/
+
+# Ignore Node.js dependencies (if your project is hybrid with Node.js)
+node_modules/
