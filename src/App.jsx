@@ -10,7 +10,7 @@ const App = () => {
    <ParallaxProvider>
     <Router>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/manishthakur/" element={<Home />} />
           </Routes>
         <Footer />
         <BottomNav/>
