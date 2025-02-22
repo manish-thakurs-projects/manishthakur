@@ -1,0 +1,12 @@
+@import "../src/styles/ThemeToggle.css";
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 100px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
