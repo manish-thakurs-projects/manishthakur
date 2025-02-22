@@ -32,7 +32,7 @@ const BottomNav = () => {
         <div className="primary-nav">
           <div className="links">
             <NavLink
-              to="/manishthakur/"
+              to="/"
               className={({ isActive }) =>
                 isActive ? "nav-item active" : "nav-item"
               }
@@ -47,7 +47,7 @@ const BottomNav = () => {
             </NavLink>
 
             <NavLink
-              to="/manishthakur/chat"
+              to="/chat"
               className={({ isActive }) =>
                 isActive ? "nav-item active" : "nav-item"
               }
@@ -62,7 +62,7 @@ const BottomNav = () => {
             </NavLink>
 
             <NavLink
-              to="/manishthakur/portfolio"
+              to="/portfolio"
               className={({ isActive }) =>
                 isActive ? "nav-item active" : "nav-item"
               }
@@ -77,7 +77,7 @@ const BottomNav = () => {
             </NavLink>
 
             <NavLink
-              to="/manishthakur/team"
+              to="/team"
               className={({ isActive }) =>
                 isActive ? "nav-item active" : "nav-item"
               }
@@ -92,7 +92,7 @@ const BottomNav = () => {
             </NavLink>
 
             <NavLink
-              to="/manishthakur/about"
+              to="/about"
               className={({ isActive }) =>
                 isActive ? "nav-item active" : "nav-item"
               }
