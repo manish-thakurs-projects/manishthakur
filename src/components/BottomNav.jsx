@@ -32,7 +32,7 @@ const BottomNav = () => {
         <div className="primary-nav">
           <div className="links">
             <NavLink
-              to="/"
+              to="/manishthakur/"
               className={({ isActive }) =>
                 isActive ? "nav-item active" : "nav-item"
               }
